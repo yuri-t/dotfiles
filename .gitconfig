@@ -1,0 +1,23 @@
+[user]
+  email = protocolluna@gmail.com
+  name = Yuri Toyoda
+[alias]
+  oneline = log --oneline --decorate
+  master = checkout master
+  co = checkout
+  st = status
+  l = log --graph --pretty=format:'%C(yellow)%h%Cgreen%d%Creset %s %C(cyan bold)%an, %ar%Creset'
+  la = log --all --graph --pretty=format:'%C(yellow)%h%Cgreen%d%Creset %s %C(cyan bold)%an, %ar%Creset'
+  dc = diff --cached
+  zip = archive --format=zip
+  tags = tag -l
+  branches = branch -a -v
+  remotes = remote -v
+[merge]
+  tool = vimdiff
+[color]
+  ui = auto
+[core]
+  editor = vi
+[github]
+  user = yuri-t
