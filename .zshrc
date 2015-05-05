@@ -125,7 +125,8 @@ alias j="jobs -l"
 #     ;;
 # esac
 
-alias ls="ls --color"
+#alias ls="ls --color"
+alias ls="gls --color"
 
 alias la="ls -a"
 alias lf="ls -F"
@@ -244,3 +245,9 @@ esac
 
 # pathの重複を解決
 typeset -U path
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH" 
+eval "$(rbenv init - zsh)"
+
+
